@@ -1,0 +1,261 @@
+/* Default css file for jemdoc. */
+body {	
+	background-color:#FFFFFF;
+	font-family:Helvetica, Verdana, Arial,  sans-serif;
+	font-size:16px;
+	color:#333;
+	margin: 0 auto;
+	width: 1150px;
+	overflow: scroll;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+a, a > tt {
+	color: #000080;
+	text-decoration: none;
+}
+
+a.caption{
+	color:#0000b3;
+}
+
+div.menu-category {
+	border-bottom: 1px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
+}
+
+div.menu-item {
+	padding-left: 16px;
+	text-indent: -16px;
+}
+
+div.links{
+	background-color: #C0C0C0;
+	display: inline-block;
+	text-align: center
+	height: 30px;
+	border: none;
+	padding-top: 0.6em;
+	padding-bottom:  0.6em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+h1, h2, h3 {
+	color: #000000;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	width: 1150px;
+	font-family: Helvetica;
+
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0.5em;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: Helvetica;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0.5em;
+	padding-top: 0.8em;
+	font-size:175%;
+	display: inline-block;
+}
+
+h3 {
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0.5em;
+    padding-bottom: 0.5em;
+	font-size: 110%;
+	border-bottom: none;
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	line-height: 1.45;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+ul, ol, dl {
+	margin-top: 0.2em;
+	padding-top: 0;
+	margin-bottom: 0.8em;
+
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: disc;
+
+}
+
+ul.small{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+
+* {-webkit-font-smoothing: antialiased;}
+
+ul.menubar{
+	list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    width: 1150px
+}
+
+
+li.menubar {
+    float: left;
+}
+
+li.menubar a.menubar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menubar a.menubar:hover:not(.active) {
+    background-color: #111;
+}
+
+li p, dd p {
+	margin-bottom: 0.3em;
+}
+
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+
+div.myintro {
+	padding: 4rem 2rem;
+	margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+
+span.pycommand {
+	color: #000070;
+}
+
+span.statement {
+	color: #008800;
+}
+span.builtin {
+	color: #000088;
+}
+span.special {
+	color: #990000;
+}
+span.operator {
+	color: #880000;
+}
+span.error {
+	color: #aa0000;
+}
+span.comment, span.comment > *, span.string, span.string > * {
+	color: #606060;
+}
+
+@media print {
+	#layout-menu { display: none; }
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+td {
+  
+    text-align: left;
+    border: none;
+}
+
+
+img {
+    border: none;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+table.imgtable {
+    border: none;
+    text-align: left;
+    width: 1100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table.image{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
